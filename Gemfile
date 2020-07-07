@@ -9,7 +9,7 @@ gem 'whenever'
 gem 'capistrano'
 gem 'active_scaffold'
 gem 'haml'
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 3.1.3'
 gem 'sass-rails'
 gem 'coffee-rails'
 
