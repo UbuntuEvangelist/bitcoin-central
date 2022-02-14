@@ -1,17 +1,17 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.3'
+gem 'rails', '5.2.6.2'
 gem 'rake'
 gem 'mysql2'
 gem 'addressable'
 gem 'devise'
 gem 'whenever'
 gem 'capistrano'
-gem 'active_scaffold'
+gem 'active_scaffold', '>= 3.1.18'
 gem 'haml'
-gem 'jquery-rails'
-gem 'sass-rails'
-gem 'coffee-rails'
+gem 'jquery-rails', '>= 4.0.1'
+gem 'sass-rails', '>= 5.0.5'
+gem 'coffee-rails', '>= 4.2.2'
 
 gem 'recaptcha',
   :require => 'recaptcha/rails'
@@ -51,7 +51,7 @@ gem 'apn_on_rails',
 
 group :test do
   gem 'mocha', :require => false
-  gem 'factory_girl_rails'
+  gem 'factory_girl_rails', '>= 1.4.0'
 end
 
 group :assets do
