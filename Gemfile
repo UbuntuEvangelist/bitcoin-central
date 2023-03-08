@@ -1,17 +1,17 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.3'
+gem 'rails', '5.0.0'
 gem 'rake'
 gem 'mysql2'
 gem 'addressable'
 gem 'devise'
 gem 'whenever'
 gem 'capistrano'
-gem 'active_scaffold'
+gem 'active_scaffold', '>= 3.1.18'
 gem 'haml'
-gem 'jquery-rails'
-gem 'sass-rails'
-gem 'coffee-rails'
+gem 'jquery-rails', '>= 4.0.1'
+gem 'sass-rails', '>= 5.0.5'
+gem 'coffee-rails', '>= 4.1.1'
 
 gem 'recaptcha',
   :require => 'recaptcha/rails'
@@ -37,7 +37,7 @@ gem 'iban-tools'
 gem 'delayed_job'
 
 # CSS toolbox
-gem 'blueprint-rails'
+gem 'blueprint-rails', '>= 0.2.0'
 gem 'bourbon'
 
 # File attachment with database storage support
