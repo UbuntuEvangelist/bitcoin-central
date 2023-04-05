@@ -1,17 +1,17 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.3'
-gem 'rake'
+gem 'rails', '6.1.7.3'
+gem 'rake', '>= 12.3.3'
 gem 'mysql2'
 gem 'addressable'
-gem 'devise'
+gem 'devise', '>= 4.7.1'
 gem 'whenever'
 gem 'capistrano'
-gem 'active_scaffold'
-gem 'haml'
-gem 'jquery-rails'
-gem 'sass-rails'
-gem 'coffee-rails'
+gem 'active_scaffold', '>= 3.1.18'
+gem 'haml', '>= 5.0.0'
+gem 'jquery-rails', '>= 4.4.0'
+gem 'sass-rails', '>= 5.0.8'
+gem 'coffee-rails', '>= 4.2.2'
 
 gem 'recaptcha',
   :require => 'recaptcha/rails'
@@ -23,7 +23,7 @@ gem 'exception_notification',
 gem 'transitions',
   :require => ["transitions", "active_record/transitions"]
 
-gem 'will_paginate', '~> 3.0.pre2'
+gem 'will_paginate', '~> 3.0.5'
 
 # OTP toolbox
 gem 'rotp', '~> 1.3.0'
@@ -34,10 +34,10 @@ gem 'qrencoder'
 # IBAN format validations
 gem 'iban-tools'
 
-gem 'delayed_job'
+gem 'delayed_job', '>= 4.1.9'
 
 # CSS toolbox
-gem 'blueprint-rails'
+gem 'blueprint-rails', '>= 0.2.0'
 gem 'bourbon'
 
 # File attachment with database storage support
@@ -55,7 +55,7 @@ group :test do
 end
 
 group :assets do
-  gem 'uglifier'
+  gem 'uglifier', '>= 2.7.2'
   gem 'execjs'
   gem 'therubyracer'
 end
