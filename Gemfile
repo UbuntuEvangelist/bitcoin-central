@@ -1,17 +1,17 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.3'
+gem 'rails', '7.0.8.1'
 gem 'rake'
 gem 'mysql2'
 gem 'addressable'
-gem 'devise'
+gem 'devise', '>= 1.5.4'
 gem 'whenever'
 gem 'capistrano'
-gem 'active_scaffold'
+gem 'active_scaffold', '>= 3.1.18'
 gem 'haml'
-gem 'jquery-rails'
-gem 'sass-rails'
-gem 'coffee-rails'
+gem 'jquery-rails', '>= 4.0.1'
+gem 'sass-rails', '>= 5.0.8'
+gem 'coffee-rails', '>= 4.2.2'
 
 gem 'recaptcha',
   :require => 'recaptcha/rails'
@@ -26,7 +26,7 @@ gem 'transitions',
 gem 'will_paginate', '~> 3.0.pre2'
 
 # OTP toolbox
-gem 'rotp', '~> 1.3.0'
+gem 'rotp', '~> 6.3.0'
 
 # QR Code generation
 gem 'qrencoder'
@@ -37,7 +37,7 @@ gem 'iban-tools'
 gem 'delayed_job'
 
 # CSS toolbox
-gem 'blueprint-rails'
+gem 'blueprint-rails', '>= 0.2.0'
 gem 'bourbon'
 
 # File attachment with database storage support
@@ -51,7 +51,7 @@ gem 'apn_on_rails',
 
 group :test do
   gem 'mocha', :require => false
-  gem 'factory_girl_rails'
+  gem 'factory_girl_rails', '>= 1.5.0'
 end
 
 group :assets do
