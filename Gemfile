@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.3'
+gem 'rails', '6.1.7.9'
 gem 'rake'
 gem 'mysql2'
 gem 'addressable'
@@ -10,7 +10,7 @@ gem 'capistrano'
 gem 'active_scaffold'
 gem 'haml'
 gem 'jquery-rails'
-gem 'sass-rails'
+gem 'sass-rails', '>= 6.0.0'
 gem 'coffee-rails'
 
 gem 'recaptcha',
